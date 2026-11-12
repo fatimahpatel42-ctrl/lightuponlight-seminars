@@ -84,6 +84,15 @@ h1.shine{animation:shimmer 6s linear infinite, fadeUp .9s cubic-bezier(.2,.7,.2,
 .bar-text span{display:none}
 .bar-text{font-size:13px !important;line-height:1.3 !important}
 .bar-faces{display:none !important}
+#book{padding-top:64px !important;padding-bottom:48px !important}
+#book > div{gap:28px !important}
+#seminars{padding-top:56px !important;padding-bottom:0 !important}
+#righteous-home,#productive-ramadan{padding-top:28px !important;padding-bottom:28px !important}
+#al-fatiha{padding-top:28px !important;padding-bottom:64px !important}
+#righteous-home > div,#productive-ramadan > div,#al-fatiha > div{gap:28px !important}
+#faq,.why,.closing{padding-top:64px !important;padding-bottom:64px !important}
+.why > div{gap:40px !important}
+.closing > div > div{padding:72px 24px 48px !important}
 .bar-row a{white-space:nowrap;padding:0 20px !important;font-size:12px !important;min-height:44px !important}
 }
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none !important;transition:none !important}}
@@ -386,7 +395,7 @@ h1.shine{animation:shimmer 6s linear infinite, fadeUp .9s cubic-bezier(.2,.7,.2,
 </section>
 
 <!-- WHY IN PERSON -->
-<section style="position: relative; background: #2E2216; padding: 120px 28px; overflow: hidden">
+<section class="why" style="position: relative; background: #2E2216; padding: 120px 28px; overflow: hidden">
 <svg aria-hidden="true" width="100%" height="100%" style="position: absolute; inset: 0"><rect width="100%" height="100%" fill="url(#lul-geo)" mask="url(#lul-mask)"></rect></svg>
 <div aria-hidden="true" class="rays" style="position: absolute; inset: 0; background: radial-gradient(ellipse 55% 45% at 50% 18%, rgba(241,217,156,0.2), transparent 70%)"></div>
 <div style="position: relative; max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 64px">
@@ -453,15 +462,15 @@ h1.shine{animation:shimmer 6s linear infinite, fadeUp .9s cubic-bezier(.2,.7,.2,
 </section>
 
 <!-- CLOSING CTA -->
-<section style="position: relative; background: #2B2014; padding: 112px 28px; text-align: center">
+<section class="closing" style="position: relative; background: #2B2014; padding: 112px 28px; text-align: center">
 <svg aria-hidden="true" width="100%" height="100%" style="position: absolute; inset: 0"><rect width="100%" height="100%" fill="url(#lul-geo)" mask="url(#lul-mask)"></rect></svg>
 <div aria-hidden="true" class="rays" style="position: absolute; inset: 0; background: radial-gradient(ellipse 60% 70% at 50% 0%, rgba(241,217,156,0.22), transparent 70%)"></div>
 <div class="reveal" style="position: relative; max-width: 900px; margin: 0 auto; border: 1px solid rgba(226,193,126,0.6); border-radius: 450px 450px 24px 24px; padding: 10px">
 <div style="border: 1px solid rgba(226,193,126,0.3); border-radius: 440px 440px 18px 18px; background: #3A2B1A; padding: 104px 40px 72px; display: flex; flex-direction: column; align-items: center; gap: 22px">
 <div style="display: flex; justify-content: center">
-<img src="assets/shaykh-jamal-abdinasir.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 2px solid #E2C17E">
-<img src="assets/shaykh-abu-taymiyyah.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 2px solid #E2C17E; margin-left: -14px">
-<img src="assets/shaykh-abu-bakr-zoud.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 2px solid #E2C17E; margin-left: -14px">
+<img src="assets/face-jamal.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; border: 2px solid #E2C17E">
+<img src="assets/face-taymiyyah.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; border: 2px solid #E2C17E; margin-left: -14px">
+<img src="assets/face-zoud.jpg" alt="" style="width: 76px; height: 76px; border-radius: 50%; object-fit: cover; border: 2px solid #E2C17E; margin-left: -14px">
 </div>
 <h2 class="shine reveal" style="margin: 0; font-weight: 800; font-size: clamp(40px, 5vw, 72px); line-height: 0.98; text-transform: uppercase">Seats are limited</h2>
 <p style="margin: 0; font-size: 17px; color: #E9DDC2; max-width: 520px">Don't let this winter pass like the last. Secure your seat while there's still space in your city.</p>
@@ -503,9 +512,9 @@ h1.shine{animation:shimmer 6s linear infinite, fadeUp .9s cubic-bezier(.2,.7,.2,
 <div class="bar-row" style="max-width: 1280px; margin: 0 auto; padding: 12px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px">
 <div style="display: flex; align-items: center; gap: 14px; min-width: 0">
 <div aria-hidden="true" class="bar-faces" style="display: flex; flex: none">
-<img src="assets/shaykh-jamal-abdinasir.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 1px solid #E2C17E">
-<img src="assets/shaykh-abu-taymiyyah.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 1px solid #E2C17E; margin-left: -10px">
-<img src="assets/shaykh-abu-bakr-zoud.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; object-position: center 30%; border: 1px solid #E2C17E; margin-left: -10px">
+<img src="assets/face-jamal.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 1px solid #E2C17E">
+<img src="assets/face-taymiyyah.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 1px solid #E2C17E; margin-left: -10px">
+<img src="assets/face-zoud.jpg" alt="" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 1px solid #E2C17E; margin-left: -10px">
 </div>
 <p class="bar-text" style="margin: 0; font-size: 14px; line-height: 1.35"><strong style="color: #F1D99C">Winter Seminars</strong> · 24 Dec – 10 Jan<br><span style="color: #CFC4AA">London · Birmingham · Manchester · from £[XX]</span></p>
 </div>
